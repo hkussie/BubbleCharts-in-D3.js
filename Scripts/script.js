@@ -2,21 +2,12 @@
 //Allows for the seperation of javascript files, 
 //while still being able to use methods defined 
 //in other javascript files //
-var methods = {};
+var response = require('./script2.js');
 
-method.message = function() {
-	console.log("Hello there");
-}
+//Using console.log won't display the any particular data 
+//will return the functions: updateServer, loveNode, and 
+//saySomething
+//console.log(response);
 
-method.favorite = function() {
-	console.log("Node is my favorite!");
-}
-
-method.node = function() {
-	console.log("I Love Node!");
-}
-
-//Exports certain types of data to controller1.js 
-//file. 
-
-exports.data = methods; 
+response.data.updateServer();
+response.output;
