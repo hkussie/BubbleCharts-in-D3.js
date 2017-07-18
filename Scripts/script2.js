@@ -6,7 +6,7 @@ server.createServer(engine).listen(1337);
 function engine(request, response) {
 
 	response.writeHead(200, 'Content-Type: text/plain');
-	response.end('Oh damn, we out here!');
+	response.end('Oh man, we out here!');
 
 }
 
