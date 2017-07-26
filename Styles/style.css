@@ -1,11 +1,47 @@
-* {
-	font-family: "Helvetica Neue";
+.login-selection {
+	width: 360px;
+	padding: 8% 0 0;
+	margin: auto;
 }
 
-p, text {
-	font-size: 0.85em;
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-svg {
-	background: #f1f1f1;
+p {
+	font-family: 'Bellefair', serif;
+	font-size: 32px;
+	text-align: center;
+}
+
+body {
+	background-color: #A9E2F3;
+}
+
+
+h1 {
+	align-content: center;
+	text-align: center;
+}
+
+div {
+	align-content: center;
+	text-align: center;
+}
+
+#text {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	font-weight: bold;
+	margin: 120px auto;
+	width: 500px;
+	height: 250px;
 }
