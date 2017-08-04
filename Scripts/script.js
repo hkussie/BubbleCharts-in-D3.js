@@ -7,6 +7,6 @@ var response = require('./methods.js');
 //Using console.log won't display the any particular data 
 //will return the functions: updateServer, loveNode, and 
 //saySomething
-//console.log(response);
+console.log(response);
 
 response.data.checkCheck();
