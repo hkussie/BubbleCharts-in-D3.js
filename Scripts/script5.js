@@ -13,10 +13,8 @@ fs.readFile('./script6/File1', 'utf8', function(error, data) {
 */
 
 //Read files synchronously
-
-
-var data = fs.readFileSync('./script6/File1', 'utf8');
-
+var data = fs.readFileSync('./Files/File1', 'utf8');
+ 
 console.log(data);
 
 console.log('Executed After The File Was Read, Hopefully.');
