@@ -1,0 +1,19 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "Authentication system using Nodejs and Mongodb",
+  "main": "app.js ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkussie/Maps-in-D3.js.git"
+  },
+  "author": "Harrison Kussie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkussie/LoginApplicationWithNodeJS"
+  },
+  "https://github.com/hkussie/LoginApplicationWithNodeJS"
+}
